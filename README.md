@@ -1,16 +1,11 @@
-# music_app
+Flutter - Music App
 
-A new Flutter application.
+Today we will create a Music App. It will have a home page and a category page. Remember that there are many ways to create this app using Flutter, my method is one of them and I am not an expert in flutter!
 
-## Getting Started
+![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/76742671/114274030-46f71f00-9a25-11eb-965c-6e9ff7b572f8.gif)
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+![bandicam 2021-04-10 17-43-52-110](https://user-images.githubusercontent.com/76742671/114274037-4c546980-9a25-11eb-9d2a-ca3e17dc8823.jpg)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![bandicam 2021-04-10 17-43-47-122](https://user-images.githubusercontent.com/76742671/114274038-4d859680-9a25-11eb-84e7-5e603593c792.jpg)
