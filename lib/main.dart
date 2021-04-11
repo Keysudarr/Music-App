@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:music_app/category.dart';
 
@@ -20,7 +21,7 @@ class HomePage extends StatelessWidget {
                     image: AssetImage("assets/main.jpg"), fit: BoxFit.cover)),
           ),
           Padding(
-            padding: const EdgeInsets.only(bottom: 320),
+            padding: EdgeInsets.only(bottom: 320),
             child: Center(
               child: Text(
                 "Flutter Music",
@@ -38,10 +39,7 @@ class HomePage extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.end,
                 children: [
                   Padding(
-                    padding: EdgeInsets.only(
-                      right: 25,
-                      bottom: 40,
-                    ),
+                    padding: EdgeInsets.only(right: 25, bottom: 40),
                     child: InkWell(
                       onTap: () {
                         Navigator.push(
@@ -49,22 +47,13 @@ class HomePage extends StatelessWidget {
                             MaterialPageRoute(
                                 builder: (context) => Category()));
                       },
-                      child: InkWell(
-                          onTap: () {
-                            Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                builder: (context) => Category(),
-                              ),
-                            );
-                          },
-                          child: _animatedButton()),
+                      child: _animatedButton(),
                     ),
-                  ),
+                  )
                 ],
-              ),
+              )
             ],
-          ),
+          )
         ],
       ),
     );
